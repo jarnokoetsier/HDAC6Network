@@ -12,4 +12,4 @@ Determine the overlap between our literature- and database-derived HDAC6 interac
 Make a network plot of the protein expression of the proteins that are unique to the database-derived HDAC6 interaction network.
 
 ## Contact
-Any questions? Feel free to contact us via [email](mailto:jarno.koetsier@maastrichtuniversity.nl)
+Any questions? Feel free to contact us via [email](mailto:nasim.sangani@maastrichtuniversity.nl)

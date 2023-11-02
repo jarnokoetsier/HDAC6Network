@@ -12,4 +12,4 @@ The literature-based network consisting of the retrieved HDAC6 interacting prote
 The expression data of Alzheimer's disease (AD) and Parkinson's disease (PD) were mapped onto the literature-based network to visualize AD- and PD-associated changes in the HDAC6 regulatory network.
 
 ## Contact
-Any questions? Feel free to contact us via [email](mailto:jarno.koetsier@maastrichtuniversity.nl)
+Any questions? Feel free to contact us via [email](mailto:nasim.sangani@maastrichtuniversity.nl)

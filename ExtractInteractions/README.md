@@ -9,4 +9,4 @@ Extract all Europe PMC annotations of the selected papers using the europepmc R 
 The Europe PMC annotations are filtered to only keep "Gene_Proteins" and "Gene Disease Relationship” annotation types. The list of protein/gene names is then used to filter the corpus. 
 
 ## Contact
-Any questions? Feel free to contact us via [email](mailto:jarno.koetsier@maastrichtuniversity.nl)
+Any questions? Feel free to contact us via [email](mailto:nasim.sangani@maastrichtuniversity.nl)

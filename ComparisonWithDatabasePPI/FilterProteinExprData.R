@@ -20,6 +20,7 @@ library(biomaRt)
 #==============================================================================#
 
 # Human protein atlas data, version 23.0 (Ensembl version 109)
+# Download from here: https://www.proteinatlas.org/about/download
 normal_tissue <- read.delim("normal_tissue.tsv")
 
 # Selected tissues
