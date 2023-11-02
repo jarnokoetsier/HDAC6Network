@@ -1,5 +1,4 @@
 *.RData
 *.tab
 *.csv
-*.txt
 .Rhistory
