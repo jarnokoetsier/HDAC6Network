@@ -1,36 +1,25 @@
 Output file
 C:/Users/jarno/OneDrive/Documents/GitHub/HDAC6Network/ExtractInteractions/CORPUS/example1.txt
-HDAC6 and Microtubules Are Required for Autophagic Degradation of Aggregated Huntingtin*S	HDAC6	Huntingtin	
-Autophagic Degradation of Huntingtin Requires HDAC6	Huntingtin	HDAC6	
 the ubiquitin proteasome system is overwhelmed with aggregationprone protein by a process in which small protein aggregates are actively transported on microtubules by a process requiring dynein/dynactin motors (38) and the tubulin deacetylase HDAC6 (39).	ubiquitin	HDAC6	
-Autophagic Degradation of Huntingtin Requires HDAC6	Huntingtin	HDAC6	
-Autophagic Degradation of Huntingtin Requires HDAC6	Huntingtin	HDAC6	
-Autophagic Degradation of Huntingtin Requires HDAC6	Huntingtin	HDAC6	
-Autophagic Degradation of Huntingtin Requires HDAC6	Huntingtin	HDAC6	
-To test this, we measured the effect of HDAC6 knockdown on recruitment of Atg8/LC3 to GFP-Htt Q103 inclusion bodies (Fig.	HDAC6	LC3	
-Although 92  5.8% of IB in cells treated with control RNAi were clearly labeled with Atg8/LC3 antibody, only 43  9.7% of IBs were Atg-positive following HDAC6 knockdown.	LC3	HDAC6	
 Although this model could explain the requirement for HDAC6 in delivery of aggregated proteins to pericentriolar inclusion bodies, it is not at all clear how such a linker function could mediate the recruitment of components of the autophagy or lysosomal apparatus, because these structures are not likely to be modified with ubiquitin.	HDAC6	ubiquitin	
-To clarify the mechanism by which HDAC6 mediates recruitment of LC3 to aggresomes, we took advantage of tubacin, a recently described, highly selective inhibitor of HDAC6 catalytic activity (49).	HDAC6	LC3	
-These data demonstrate that HDAC6 protein and HDAC6 catalytic function is required for transport of LC3 to the aggresomes.	HDAC6	LC3	
-Autophagic Degradation of Huntingtin Requires HDAC6	Huntingtin	HDAC6	
 HeLa cells transiently expressing GFP-Htt Q103 were imaged for GFP fluorescence or HDAC6 immunofluorescence.	GFP	HDAC6	
-HDAC6 knockdown affects Atg8/LC3 colocalization with GFP-Htt inclusions in HeLa cells.	HDAC6	LC3	
-Autophagic Degradation of Huntingtin Requires HDAC6	Huntingtin	HDAC6	
-HeLa cells transfected with pSUPER vector alone (shRNA) or with pSUPER containing shRNA (shRNA) for HDAC6 were stained with LAMP-2 antibody.	HDAC6	LAMP-2	
-B, histogram showing distances between the centrosome (-tubulin) and lysosomes (LAMP-2) from cells expressing control shRNA (white bars) and HDAC6 shRNA (black bars). n  600 -1200 spots from 6 randomly selected cells for each condition.	LAMP-2	HDAC6	
-Autophagic Degradation of Huntingtin Requires HDAC6	Huntingtin	HDAC6	
-HDAC6 is a multidomain protein that possesses a BUZfinger domain, which binds to polyubiquitin chains, and two deacetylase domains interrupted by a motif that binds to cytoplasmic dynein (59, 60).	HDAC6	polyubiquitin	
 Because these structures are presumably not conjugated to ubiquitin, how HDAC6 contributes to dynein capture or transport of these organelles remains an interesting but unanswered question.	ubiquitin	HDAC6	
-The observation that tubacin, a selective inhibitor of HDAC6 deacetylase activity also blocks LC3 recruitment	HDAC6	LC3	
-Autophagic Degradation of Huntingtin Requires HDAC6	Huntingtin	HDAC6	
-Autophagic Degradation of Huntingtin Requires HDAC6	Huntingtin	HDAC6	
 C:/Users/jarno/OneDrive/Documents/GitHub/HDAC6Network/ExtractInteractions/CORPUS/example2.txt
 Interestingly, the aggresome response was blocked by HDAC6 catalytic mutants and the HDAC inhibitor trichostatin A (TSA).	HDAC6	TSA	
+Evidences indicate that aggresomes do not only associate with the dynein motor complex but also with histone deacetylase 6 (HDAC6) [40], ataxin-3 [42], and ubiquilin-1 [43] for recognition and transportation of cargo proteins and with chaperones, ubiquitination enzymes and proteasomes to facilitate the clearance of aggregated proteins [44].	HDAC6	ataxin-3	ubiquilin-1	
+Indeed, our findings reveal a novel role for kalirin-7 in aggresome dynamics, namely in the HDAC6 dependent recruitment of small cytoplasmic synphilin-1 inclusions into aggresomes and thereby potentially link the protein for the first time to the pathogenesis of PD.	HDAC6	synphilin-1	
+We therefore tested whether HDAC6 is involved in the kalirin-7-mediated synphilin-1 aggresome formation.	HDAC6	synphilin-1	
 To examine this, we first treated cells with trichostatin A (TSA) which inhibits three classes of HDACs, or sodium butyrate (NaBu), a broad deacetylase inhibitor which does not affect HDAC6 activity [58].	TSA	HDAC6	
-Apart from binding to ubiquitinated proteins, HDAC6 catalyzes the removal of acetyl groups from a-tubulin and plays an important role in microtubule-dependent intracellular trafficking [60].	HDAC6	a-tubulin	
-(B) Quantification shows that treatment with the HDAC6 inhibitor TSA counteracts the recruitment of synphilin-1 into aggresomes mediated by kalirin-7, whereas the broad deacetylase inhibitor NaBu does not exert such an effect.	HDAC6	TSA	
+To further explore whether the kalirin-7-induced aggresome response is dependent on the catalytic activity of HDAC6, WT and double mutant (H216A/H611A) HDAC6 were triple transfected with synphilin-1 and kalirin-7 to compete with the endogenous HDAC6 protein (Fig.	HDAC6	synphilin-1	
+Given this involvement, we next tested if kalirin-7, synphilin1 and HDAC6 act in a common complex to transport synphilin-1 into aggresomes.	HDAC6	synphilin-1	
+In addition, an interaction between synphilin-1 and HDAC6 was observed (Fig.	synphilin-1	HDAC6	
+(B) Quantification shows that treatment with the HDAC6 inhibitor TSA counteracts the recruitment of synphilin-1 into aggresomes mediated by kalirin-7, whereas the broad deacetylase inhibitor NaBu does not exert such an effect.	HDAC6	TSA	synphilin-1	
+An HDAC6 deacetylase-dead mutant opposes the formation of synphilin-1 containing aggresomes mediated by kalirin-7.	HDAC6	synphilin-1	
+(B) Quantification shows that mutant HDAC6 inhibited the kalirin-7-mediated perinuclear synphilin-1 inclusion formation.	HDAC6	synphilin-1	
+The precipitates were probed with HA antibodies to detect HDAC6 and revealed an interaction of HDAC6 with both kalirin-7 and synphilin-1. 30 mg of protein lysates were visualized as input control.	HDAC6	synphilin-1	
+(B) When kalirin-7 is overexpressed, it facilitates the recruitment of HDAC6 and the dynein motor complex and acts on microtubule dynamics by stimulating the deacetylase activity of HDAC6, thereby increasing the transportation of synphilin-1 into aggresomes. doi:10.1371/journal.pone.0051999.g009	HDAC6	synphilin-1	
 This histone deacetylase has been shown to concentrate in Lewy bodies of PD patients [57] and there is increasing evidence that HDAC6 plays an essential role in aggresome formation via its ubiquitin binding and its deacetylase activity.	HDAC6	ubiquitin	
-HDAC6 binds to ubiquitinated proteins, including CFTR [57] and huntingtin [72], through a C-terminal ubiquitin-binding zinc finger domain (ZnF-UBP) and also binds to the dynein motor complex through a segment between two catalytic domains [57] facilitating the transport of cargo proteins by the dynein motor complex towards the minus end of microtubules to the microtubule-organizing center (MTOC).	HDAC6	huntingtin	
-Furthermore, HDAC6 has been shown to mediate the deacetylation of a-tubulin in several studies [60,73-75] and the inhibition of HDAC6 has been proposed to regulate the dynamics of the microtubule network [76].	HDAC6	a-tubulin	
-Here, we observed that TSA (but not NaBu) as well as a dominant negative HDAC6 mutant conferring loss of catalytic activity counteracted the kalirin-7-mediated recruitment of synphilin-1 aggregates into aggresomes (Figs. 6 and 7).	TSA	HDAC6	
-Iwata A, Riley B, Johnston J, Kopito R (2005) HDAC6 and Microtubules Are Required for Autophagic Degradation of Aggregated Huntingtin.	HDAC6	Huntingtin	
+HDAC6 binds to ubiquitinated proteins, including CFTR [57] and huntingtin [72], through a C-terminal ubiquitin-binding zinc finger domain (ZnF-UBP) and also binds to the dynein motor complex through a segment between two catalytic domains [57] facilitating the transport of cargo proteins by the dynein motor complex towards the minus end of microtubules to the microtubule-organizing center (MTOC).	HDAC6	CFTR	huntingtin	
+Here, we observed that TSA (but not NaBu) as well as a dominant negative HDAC6 mutant conferring loss of catalytic activity counteracted the kalirin-7-mediated recruitment of synphilin-1 aggregates into aggresomes (Figs. 6 and 7).	TSA	HDAC6	synphilin-1	
+Compatible with a concerted action of kalirin-7 and HDAC6, we showed that kalirin-7 and synphilin-1 both interact with HDAC6 (Fig.	HDAC6	synphilin-1	
+Besides the HDAC6 dependence of the kalirin-7-mediated aggresome formation, the kalirin-7 interactor HAP-1 may act as an additional mediator or cofactor [20] of kalirin action.	HDAC6	HAP-1	kalirin	

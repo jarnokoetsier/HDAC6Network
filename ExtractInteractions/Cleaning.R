@@ -25,17 +25,19 @@ library(quanteda)
 library(stringi)
 
 # set working directory
-# Example: setwd("C:/Users/jarno/OneDrive/Documents/GitHub/HDAC6Network/ExtractInteractions/OUTPUT")
+# Example: setwd("C:/Users/jarno/OneDrive/Documents/GitHub/HDAC6Network/ExtractInteractions")
 setwd("PATH/TO/OUTPUT")
 
 # Set path to corpus paper files
 # Example: corpus_path <- "C:/Users/jarno/OneDrive/Documents/GitHub/HDAC6Network/ExtractInteractions/CORPUS"
 corpus_path <- "PATH/TO/CORPUS"
 
-
 # Set path to epmc annotations
 # Example: annotation_path <- "C:/Users/jarno/OneDrive/Documents/GitHub/HDAC6Network/ExtractInteractions/ANNOTATIONS"
 annotation_path <- "PATH/TO/ANNOTATIONS"
+
+# Example: output_path <- "C:/Users/jarno/OneDrive/Documents/GitHub/HDAC6Network/ExtractInteractions/OUTPUT"
+output_path <- "PATH/TO/OUTPUT"
 
 #==============================================================================#
 # Make a vector of PDF file names
@@ -69,7 +71,7 @@ gene_names <- unique(epmc_results_genes$name)
 labelsSel <- data.frame(labels=gene_names)
 
 # Create log file
-logFile <- "example_output.txt"
+logFile <- paste0(output_path,"/example_output.txt")
 cat("Output file", file=logFile, append=FALSE, sep = "\n")
 
 print("Start")

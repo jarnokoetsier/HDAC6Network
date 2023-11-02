@@ -10,6 +10,7 @@ cat("\014")
 library(europepmc)
 
 # set working directory to annotations directory
+# Example: setwd("C:/Users/jarno/OneDrive/Documents/GitHub/HDAC6Network/ExtractInteractions/ANNOTATIONS")
 setwd("PATH/TO/ANNOTATIONS")
 
 #==============================================================================#
@@ -17,7 +18,7 @@ setwd("PATH/TO/ANNOTATIONS")
 #==============================================================================#
 
 # 1) load the corpus file names
-corpus <- read.delim("corpus.tab", as.is=TRUE, header=FALSE)
+corpus <- read.delim("corpus.txt", as.is=TRUE, header=FALSE)
 corpus <- corpus[,1]
 
 # 2) transform the names into unique Pubmed and PMC identifiers
@@ -32,15 +33,11 @@ corpusIDs <- paste0("MED:",corpusIDs)
 corpusIDs <- sub("MED:PMC","PMC:PMC",corpusIDs)
 
 # 4) run epmc on the corpus
-test <- epmc_annotations_by_id(corpusIDs)
+epmcann <- epmc_annotations_by_id(corpusIDs)
 
 #how many papers do have hits in other parts than abstract or title?
-rowSums(table(test$ext_id,test$section)[,-c(2,14)])
-#164 do not; 79 do
+rowSums(table(epmcann$ext_id,epmcann$section)[,-c(2,14)])
 
-# 5) manually replace \" by ”
-test[50083,3] <- "B1” (HSPB1)-induced "
-
-# 6) save the results to a tab delimited text file
-write.table(test, file="epmc_annotations_HDAC6_corpus.txt", sep="\t", col.names=NA)
+# 5) save the results to a tab delimited text file
+write.table(epmcann, file="epmc_annotations_HDAC6_corpus.txt", sep="\t", col.names=NA)
 
