@@ -22,36 +22,44 @@ cat("\014")
 library(stringr)
 library(tokenizers)
 library(quanteda)
+library(stringi)
 
 # set working directory
-setwd("PATH")
+# Example: setwd("C:/Users/jarno/OneDrive/Documents/GitHub/HDAC6Network/ExtractInteractions/OUTPUT")
+setwd("PATH/TO/OUTPUT")
 
 # Set path to corpus paper files
-dest <- "C:/Users/Lars/Desktop/USB copy/Nasim/HDAC6/corpus_paper_files"
+# Example: corpus_path <- "C:/Users/jarno/OneDrive/Documents/GitHub/HDAC6Network/ExtractInteractions/CORPUS"
+corpus_path <- "PATH/TO/CORPUS"
+
+
+# Set path to epmc annotations
+# Example: annotation_path <- "C:/Users/jarno/OneDrive/Documents/GitHub/HDAC6Network/ExtractInteractions/ANNOTATIONS"
+annotation_path <- "PATH/TO/ANNOTATIONS"
 
 #==============================================================================#
 # Make a vector of PDF file names
 # --> ONLY RUN ONCE
+# NOTE: "xpdf-tools-win-4.04.zip" needs to be unzipped first!
 #==============================================================================#
 
 # List PDF files
-myfiles <- list.files(path = dest, pattern = "pdf",  full.names = TRUE)
+myfiles <- list.files(path = corpus_path, pattern = "pdf",  full.names = TRUE)
 
 # Convert each PDF file that is named in the vector into a text file 
 # Text file is created in the same directory as the PDFs
 lapply(myfiles, function(i) system(paste('"xpdf-tools-win-4.04/bin64/pdftotext.exe"', 
                                         paste0('"', i, '"')), wait = FALSE) )
 
-
 #==============================================================================#
 # Perform cleaning
 #==============================================================================#
 
 # List txt files
-mytxtfiles <- list.files(path = dest, pattern = "txt",  full.names = TRUE)
+mytxtfiles <- list.files(path = corpus_path, pattern = "txt",  full.names = TRUE)
 
 # Read epmc annotations
-epmc_results <- read.delim("epmc_annotations_HDAC6_corpus.txt", row.names=1, quote="\"", as.is=TRUE)
+epmc_results <- read.delim(paste0(annotation_path,"/epmc_annotations_HDAC6_corpus.txt"), row.names=1, quote="\"", as.is=TRUE)
 
 # Filter annotations for those of type "Gene_Proteins" and "Gene Disease Relationship"
 epmc_results_genes <- epmc_results[(epmc_results$type=="Gene_Proteins") | ((epmc_results$type=="Gene Disease Relationship") & grepl("uniprot",epmc_results$uri)),]
@@ -61,7 +69,7 @@ gene_names <- unique(epmc_results_genes$name)
 labelsSel <- data.frame(labels=gene_names)
 
 # Create log file
-logFile <- "NER_2_v4.txt"
+logFile <- "example_output.txt"
 cat("Output file", file=logFile, append=FALSE, sep = "\n")
 
 print("Start")
@@ -75,7 +83,7 @@ for(i in 1:length(mytxtfiles)) {
   for (lines in result){
     
     # Get sentences from the paper
-    sentences <- tokenize_sentences(lines, lowercase = FALSE)
+    sentences <- tokenize_sentences(stri_enc_toutf8(lines, is_unknown_8bit = TRUE), lowercase = FALSE)
     
     for (sentence in sentences[[1]] ){
       

@@ -9,8 +9,8 @@ cat("\014")
 # Load required libraries
 library(europepmc)
 
-# set working directory
-setwd("PATH")
+# set working directory to annotations directory
+setwd("PATH/TO/ANNOTATIONS")
 
 #==============================================================================#
 # Extract HDAC6 interactions
