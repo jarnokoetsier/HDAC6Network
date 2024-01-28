@@ -1,0 +1,36 @@
+"BorderStyle","BorderThickness","ChEBI","Color","Ensembl","FillColor","GraphID","Height","IsGPMLShape","LabelFont","LabelSize","name","selected","Shape","shared name","Transparent","Type","Width","XrefDatasource","XrefId"
+,"1.0",,"#000000","ENSG00000204435","#ffffff","ab61d","25.0",,"Arial","13.0","CSNK2B
+","false","Rectangle","CSNK2B
+","false","GeneProduct","90.0","Ensembl","ENSG00000204435"
+,"1.0",,"#000000","ENSG00000105723","#ffffff","aad9f","25.0",,"Arial","13.0","GSK3A","false","Rectangle","GSK3A","false","GeneProduct","90.0","Ensembl","ENSG00000105723"
+,"1.0",,"#000000","ENSG00000070770","#ffffff","bac73","25.0",,"Arial","13.0","CSNK2A2","false","Rectangle","CSNK2A2","false","GeneProduct","90.0","Ensembl","ENSG00000070770"
+,"1.0",,"#000000","ENSG00000173020","#ffffff","f7c70","25.0",,"Arial","13.0","GRK2
+","false","Rectangle","GRK2
+","false","GeneProduct","90.0","Ensembl","ENSG00000173020"
+,"1.0",,"#000000","ENSG00000197442","#ffffff","dcb02","25.0",,"Arial","13.0","MAP3K5","false","Rectangle","MAP3K5","false","Protein","90.0","Ensembl","ENSG00000197442"
+,"1.0",,"#000000","ENSG00000082701","#ffffff","f403a","25.0",,"Arial","13.0","GSK3B
+","false","Rectangle","GSK3B
+","false","GeneProduct","90.0","Ensembl","ENSG00000082701"
+,"1.0",,"#000000","ENSG00000067606","#ffffff","bb209","25.0",,"Arial","13.0","PRKCZ
+","false","Rectangle","PRKCZ
+","false","GeneProduct","90.0","Ensembl","ENSG00000067606"
+,"1.0",,"#000000","ENSG00000146648","#ffffff","f285b","25.0",,"Arial","13.0","EGFR
+","false","Rectangle","EGFR
+","false","GeneProduct","90.0","Ensembl","ENSG00000146648"
+,"1.0",,"#000000","ENSG00000087586","#ffffff","f0507","25.0",,"Arial","13.0","AURKA
+","false","Rectangle","AURKA
+","false","GeneProduct","90.0","Ensembl","ENSG00000087586"
+,"1.0",,"#666666","ENSG00000094631","#ffffff","dcb5f","25.0",,"Arial Bold","13.0","HDAC6","false","Rectangle","HDAC6","false","GeneProduct","90.0","Ensembl","ENSG00000094631"
+,"1.0",,"#000000","ENSG00000102882","#ffffff","cdce6","25.0",,"Arial","13.0","MAPK3
+
+","false","Rectangle","MAPK3
+
+","false","GeneProduct","90.0","Ensembl","ENSG00000102882"
+,"1.0",,"#000000","ENSG00000100030","#ffffff","cfc06","25.0",,"Arial","13.0","MAPK1
+","false","Rectangle","MAPK1
+","false","GeneProduct","90.0","Ensembl","ENSG00000100030"
+,"1.0",,"#000000","ENSG00000111859","#ffffff","e8476","25.0",,"Arial","13.0","NEDD9
+
+","false","Rectangle","NEDD9
+
+","false","GeneProduct","90.0","Ensembl","ENSG00000111859"
