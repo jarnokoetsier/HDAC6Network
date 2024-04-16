@@ -38,6 +38,7 @@ databaseNetwork_fil$LevelName[databaseNetwork_fil$Level1 == "Low"] <- "2"
 databaseNetwork_fil$LevelName[databaseNetwork_fil$Level1 == "Medium"] <- "3"
 databaseNetwork_fil$LevelName[databaseNetwork_fil$Level1 == "High"] <- "4"
 
+write.csv(databaseNetwork_fil, file = "uniqueDBGenes.csv")
 
 # create a data frame for making the network
 
